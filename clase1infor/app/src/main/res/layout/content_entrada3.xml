@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".entrada3"
+    tools:showIn="@layout/activity_entrada3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/girl"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:layout_weight="70"
+                android:text="BIENVENIDO"
+                android:textAlignment="center"
+                android:textColor="#666262"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="TU PERFIL"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#F7200404"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="#002196F3"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="TU NOMBRE:"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"
+                            android:text="TU APELLIDO:"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"
+                            android:text="TU EMAIL:"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:text="TU NACIMIENTO"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:text="TU EDAD"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:text="TU PROFESION"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:text="TU TELEFONO"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/lblnom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="TextView"
+                            android:textAlignment="center"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/lblape"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="TextView"
+                            android:textAlignment="center"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/lblemail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="TextView"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/lblfecha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="TextView"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/lbledad"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="TextView"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/lblprofe"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="TextView"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/lbltel"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="TextView"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_weight="15"
+                    android:orientation="vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
